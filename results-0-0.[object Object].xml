@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Account profile scenarios" timestamp="2023-09-19T17:15:37" time="7.634" tests="1" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Account profile scenarios"/>
+      <property name="capabilities" value="chrome.115_0_5790_98.linux"/>
+      <property name="featureFile" value="./e2e-tests/features/home.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.115_0_5790_98.linux.Account profile scenarios" name="As a user I want to navigate to my account profile" time="7.625">
+      <failure/>
+      <error message="Step &quot;button Visible&quot; is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true."/>
+      <system-out><![CDATA[
+✅ Given User go to partstown home page using a browser❗ Then button Visible
+]]></system-out>
+      <system-err><![CDATA[
+Step "button Visible" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+	at Feature(/home/ntpl/Documents/credzyWeb/e2e-tests/features/home.feature):1:1
+	at Scenario(As a user I want to navigate to my account profile):4:5
+	at Step(button Visible):7:9
+
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
